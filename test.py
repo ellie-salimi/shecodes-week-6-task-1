@@ -17,3 +17,4 @@ qualifying_questions = [
 my_survey = Survey(my_sections,'SheCodes')
 my_survey.start_survey()
 my_survey.ask_qualifying_questions(qualifying_questions)
+my_survey.start_survey_sections()
